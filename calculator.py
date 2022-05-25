@@ -80,7 +80,7 @@ buttonClose = tk.Button(root, text=")", command=lambda: addToCalculation(")"), w
 buttonClose.grid(row=5, column=3)
 
 buttonClear = tk.Button(root, text="C", command=clearField, width=11, font=("Arial", 14))
-buttonClear.grid(row=6, column=3, columnspan=2)
+buttonClear.grid(row=6, column=1, columnspan=2)
 
 buttonEquals = tk.Button(root, text="=", command=evaluateCalculation, width=11, font=("Arial", 14))
 buttonEquals.grid(row=6, column=3, columnspan=2)
