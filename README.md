@@ -12,3 +12,9 @@ Random Password Generator and Calculator using python
 **Why I chose to do this project:** I chose to make the calculator as one of my project because it seemeed like a nice challenge and would 
 give me an interesting end product I could show my friends.
  
+ **Password Generator**
+ -This is a random password generator which creates passcodes  randomly based on two inputs from the user.
+-First we import random and then we specify the characters that will be used to create the random password. This function contains a main loop and inside that loop the program asks the  user to input the desired length of the password and stores it in a variable called password_length. It also asks the user to input how many passwords they would like and stores it in a variable called passwords_generated.
+-We then give the loop a range of how many  times it's gonna run using for x  in range. In this case it will run as many times as the user wants to generate a password. For example, if the user types that they want three  passwords it will run three times.
+-For the part that creates the password we use another for loop with a range of how many characters the user wants in their password (from 0 until password length has been met). Basically, we will run this  loop the number of times the user wants their length to be. Each time this loop runs, one character will be added to the password until the final  length. Every time this  loop runs it will grab the password character by equaling the variable password_character to a random choice that  selects a single character from the characters string. Finally, each character will be added to the final password variable until it forms the  complete password.
+
